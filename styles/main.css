@@ -8,6 +8,7 @@
 /*Starts Header*/
 .header {
     background: var(--text-white);
+    box-sizing: border-box;
     display: flex;
     position: fixed;
     top: 0;
@@ -27,13 +28,18 @@
 }
 .header__nav {
     font-family: var(--Rubik);
-    font-size: 16px;
+    color: var(--menu-grey);
     margin-bottom: 13px;
     width: 155px;
 }
 .header__nav__ul {
     display: flex;
-    justify-content: space-around;
+}
+.li1 {
+    padding-right: 10px;
+}
+.li1 {
+    padding-left: 10px;
 }
 /*Ends Header*/
 
@@ -55,3 +61,25 @@
     width: 15ch;
 }
 /*Ends Main*/
+
+/*Start Mediaqueries*/
+@media all and (min-width: 768px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: row;
+    }
+    .header__logo {
+        text-align: left;
+    }
+    .header__nav__ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main__title {
+        font-size: 40px;
+    }
+  }
+/*End Mediaqueries*/
