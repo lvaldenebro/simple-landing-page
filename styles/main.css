@@ -9,10 +9,10 @@
 .header {
     background: var(--text-white);
     display: flex;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100vw;
-    margin-top: 10px;
+    padding-top: 10px;
     flex-direction:column;
     justify-content: center;
     align-items: center;
@@ -38,5 +38,20 @@
 /*Ends Header*/
 
 /*Starts Main*/
-
+.main {
+    background-color: var(--background-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.main__title {
+    font-family: var(--Rubik);
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--text-white);
+    text-align: center;
+    width: 15ch;
+}
 /*Ends Main*/
