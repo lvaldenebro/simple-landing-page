@@ -1,85 +1,85 @@
 :root {
-    --Rubik: 'Rubik', sans-serif;
-    --menu-grey: #4a4a4a;
-    --background-blue: #3CDBC0;
-    --text-white: #FFFFFF;
+  --Rubik: "Rubik", sans-serif;
+  --menu-grey: #4a4a4a;
+  --background-blue: #3cdbc0;
+  --text-white: #ffffff;
 }
 
 /*Starts Header*/
 .header {
-    background: var(--text-white);
-    box-sizing: border-box;
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    padding-top: 10px;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
+  background: var(--text-white);
+  box-sizing: border-box;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding-top: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .header__logo {
-    width: 100vw;
-    margin-bottom: 10px;
-    text-align: center;
+  width: 100vw;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .logo {
-    width: 155px;
+  width: 155px;
 }
 .header__nav {
-    font-family: var(--Rubik);
-    color: var(--menu-grey);
-    margin-bottom: 13px;
-    width: 155px;
+  font-family: var(--Rubik);
+  color: var(--menu-grey);
+  margin-bottom: 13px;
+  width: 155px;
 }
 .header__nav__ul {
-    display: flex;
+  display: flex;
 }
 .li1 {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 .li1 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 /*Ends Header*/
 
 /*Starts Main*/
 .main {
-    background-color: var(--background-blue);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+  background-color: var(--background-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 .main__title {
-    font-family: var(--Rubik);
-    font-size: 30px;
-    font-weight: bold;
-    color: var(--text-white);
-    text-align: center;
-    width: 15ch;
+  font-family: var(--Rubik);
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--text-white);
+  text-align: center;
+  width: 15ch;
 }
 /*Ends Main*/
 
 /*Start Mediaqueries*/
 @media all and (min-width: 768px) {
-    .header {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-        flex-direction: row;
-    }
-    .header__logo {
-        text-align: left;
-    }
-    .header__nav__ul {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .main__title {
-        font-size: 40px;
-    }
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: row;
   }
+  .header__logo {
+    text-align: left;
+  }
+  .header__nav__ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main__title {
+    font-size: 40px;
+  }
+}
 /*End Mediaqueries*/
