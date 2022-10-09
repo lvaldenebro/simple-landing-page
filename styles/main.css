@@ -1,5 +1,5 @@
 :root {
-  --Rubik: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   --menu-grey: #4a4a4a;
   --background-blue: #3cdbc0;
   --text-white: #ffffff;
@@ -27,19 +27,16 @@
   width: 155px;
 }
 .header__nav {
-  font-family: var(--Rubik);
   color: var(--menu-grey);
   margin-bottom: 13px;
   width: 155px;
 }
 .header__nav__ul {
   display: flex;
+  text-transform: uppercase;
 }
-.li1 {
-  padding-right: 10px;
-}
-.li1 {
-  padding-left: 10px;
+a {
+  padding: 5px;
 }
 /*Ends Header*/
 
@@ -53,12 +50,12 @@
   height: 100vh;
 }
 .main__title {
-  font-family: var(--Rubik);
   font-size: 30px;
   font-weight: bold;
   color: var(--text-white);
+  text-transform: capitalize;
   text-align: center;
-  width: 15ch;
+  width: 11ch;
 }
 /*Ends Main*/
 
@@ -75,7 +72,6 @@
     text-align: left;
   }
   .header__nav__ul {
-    display: flex;
     justify-content: space-evenly;
   }
   .main__title {
