@@ -27,7 +27,6 @@
   width: 155px;
 }
 .header__nav {
-  color: var(--menu-grey);
   margin-bottom: 13px;
   width: 155px;
 }
@@ -37,6 +36,8 @@
 }
 a {
   padding: 5px;
+  text-decoration: none;
+  color: var(--menu-grey);
 }
 /*Ends Header*/
 
